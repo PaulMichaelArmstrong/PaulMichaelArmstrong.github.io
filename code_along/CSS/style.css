@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #0000ff;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  text-transform: title;
+  letter-spacing: 1px;
+  font-size: 55px;
+  padding: 30px 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 30px;
+  border: 1px solid lightgray;
+}
+
+li:hover {
+  box-shadow: 2px 2px 6px lightgray;
+}
+
+#first-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+#second-list {
+  display: flex;
+}
+
+#second-list li {
+  flex-grow: 1;
+  margin: 28px;
+}
+
+.container {
+  max-width: 1000px;
+margin: 0 auto;
+}
+
+.sale {
+  color: red
+}
+
+.out-of-stock {
+  color: blue
+}
+
+.border {
+  border: 1px solid black;
+}
